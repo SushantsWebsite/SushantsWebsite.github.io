@@ -1,6 +1,6 @@
 # Welcome to My Homepage
 
-This is the homepage of Sushant Gandhi Here, you can find information about me and my projects.
+This is the homepage of Sushant Gandhi. Here, you can find information about me and my projects.
 
 ## About Me
 
