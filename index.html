@@ -1,51 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        /* Center the title text */
-        title {
-            text-align: center;
-        }
-    </style>
-    <title>Sushant's Website</title>
-    <style>
-    head {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-    footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-        
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <!-- Text Elements -->
+    <h1>My Personal Website</h1>
+    <h2>About Me</h2>
+    <p>Welcome to my personal website. I'm passionate about web development.</p>
+    <ul>
+        <li>Web Development</li>
+        <li>Design</li>
+        <li>Programming</li>
+    </ul>
 
-<h1>Welcome to My Webpage</h1>
-    
-    <img src="image/imgpsh_fullsize_anim (6).jpg" alt="My Image"width="300" height="300">
+    <!-- Media Elements -->
+    <img src="profile.jpg" alt="My Profile">
+    <a href="image.jpg" data-lightbox="image-popup">View Image</a>
+    <a href="video.mp4" data-lightbox="video-popup">Watch Video</a>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
-<div class="container">
-    <h2>Section 1</h2>
-    <p>Hakkuna Matata! </p>
-</div>
+    <!-- Form Elements -->
+    <form action="submit.php" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <select name="interest">
+            <option value="webdev">Web Development</option>
+            <option value="design">Design</option>
+        </select>
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
 
-<div class="container">
-    <h2>Section 2</h2>
-    <p>Live Like There Is Tomorrow!</p>
-</div>
-<footer>
-    <p>&copy; 2023 Your Website Name | <a href="README.md">Readme</a></p>
-</footer>
+    <!-- Advanced Form Elements -->
+    <input type="tel" name="phone" placeholder="Phone Number">
+    <input type="text" name="billing_address" placeholder="Billing Address">
+    <input type="text" name="shipping_address" placeholder="Shipping Address">
+    <input type="radio" name="survey" value="yes"> Yes
+    <input type="radio" name="survey" value="no"> No
+
+    <!-- Countdown Elements -->
+    <div id="countdown-timer"></div>
+
+    <!-- Content Block Elements -->
+    <div class="icons">
+        <i class="fa fa-globe"></i>
+        <i class="fa fa-code"></i>
+        <i class="fa fa-paint-brush"></i>
+    </div>
+    <img src="feature.jpg" alt="Featured Image">
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <details>
+        <summary>Frequently Asked Questions</summary>
+        <p>Q1: What's your favorite programming language?</p>
+        <p>A1: I love JavaScript!</p>
+    </details>
+
+    <!-- Miscellaneous Elements -->
+    <div class="text-block">
+        <p>This is a custom text block.</p>
+    </div>
+    <div class="social-share">
+        Share this page on: 
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+    </div>
+    <div class="fb-comments"></div>
+    <script src="custom.js"></script>
+
+    <!-- Special Elements -->
+    <div class="order-confirmation">
+        <p>Your order has been confirmed. Thank you!</p>
+    </div>
+    <div class="user-login">
+        <form action="login.php" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div class="membership-content">
+        <p>Welcome to the members-only area. Enjoy exclusive content!</p>
+    </div>
+    <div class="webinar-dates">
+        <p>Upcoming Webinar Dates:</p>
+        <ul>
+            <li>Webinar 1: 2023-11-15</li>
+            <li>Webinar 2: 2023-12-10</li>
+        </ul>
+    </div>
 </body>
 </html>
